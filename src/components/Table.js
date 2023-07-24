@@ -9,7 +9,6 @@ const Table = ({ sat }) => {
           <th>Type of Satellite</th>
           <th>Launch Date</th>
           <th>Status</th>
-          <th>Orbit Type</th>
         </tr>
       </thead>
       <tbody>
@@ -20,7 +19,6 @@ const Table = ({ sat }) => {
             <td>{data.type}</td>
             <td>{data.launchDate}</td>
             <td>{data.operational ? "Active" : "Inactive"}</td>
-            <td>{data.orbitType}</td>
           </tr>
         )})}
       </tbody>
